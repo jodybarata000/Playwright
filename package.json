@@ -1,0 +1,32 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "TypeScript Playwright BDD tests for the SauceDemo shopping flow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "bddgen && playwright test",
+    "test:ui": "bddgen && playwright test --ui",
+    "report:allure": "allure generate allure-results --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodybarata000/Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jodybarata000/Playwright/issues"
+  },
+  "homepage": "https://github.com/jodybarata000/Playwright#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.10",
+    "allure": "^3.33.0",
+    "allure-playwright": "^3.15.0",
+    "dotenv": "^18.0.10",
+    "playwright-bdd": "^9.2.1"
+  }
+}
